@@ -4,14 +4,17 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+pydantic = "*"
+tavily-python = "*"
 langchain-groq = "*"
 langchain-openai = "*"
 langchain-community = "*"
 langgraph = "*"
-pydantic = "*"
+langchain-core = "*"
 fastapi = "*"
 uvicorn = "*"
 streamlit = "*"
+requests = "*"
 
 [dev-packages]
 
